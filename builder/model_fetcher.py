@@ -56,7 +56,7 @@ def download_model(model_url: str):
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument(
     "--model_url", type=str,
-    default="https://huggingface.co/stabilityai/stable-diffusion-2-1",
+    default="https://huggingface.co/SG161222/Realistic_Vision_V1.4",
     help="URL of the model to download."
 )
 

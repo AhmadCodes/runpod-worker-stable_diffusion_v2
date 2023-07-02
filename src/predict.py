@@ -16,7 +16,7 @@ from diffusers import (
 # )
 
 
-MODEL_ID = "stabilityai/stable-diffusion-2-1"
+MODEL_ID = "SG161222/Realistic_Vision_V1.4"
 MODEL_CACHE = "diffusers-cache"
 SAFETY_MODEL_ID = "CompVis/stable-diffusion-safety-checker"
 

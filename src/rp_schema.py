@@ -36,7 +36,7 @@ INPUT_SCHEMA = {
         'type': int,
         'required': False,
         'default': 50,
-        'constraints': lambda num_inference_steps: 0 < num_inference_steps < 500
+        'constraints': lambda num_inference_steps: 0 < num_inference_steps < 60
     },
     'guidance_scale': {
         'type': float,
