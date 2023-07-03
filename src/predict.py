@@ -81,7 +81,7 @@ class Predictor:
                 f"NSFW content detected. Try running it again, or try a different prompt."
             )
 
-        return output_paths
+        return output_paths[0]
 
 
 def make_scheduler(name, config):
